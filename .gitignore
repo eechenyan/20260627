@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data and model files (too large for GitHub)
+Data/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.hdf5
+*.mat
+*.npy
+*.npz
+
+# Log directories
+log*/
+Nets/
+Netss/
+woxiwangnichongxinzuoren/
+Results*/
+
+# Output files
+*.out
+nohup.out
+
+# OS
+.DS_Store
+Thumbs.db

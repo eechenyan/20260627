@@ -1,0 +1,18 @@
+后台挂进程nohup
+1.单机单卡启动 nohup python MyTrain.py >xunlian.out &
+2.查看输出 cat xunlian3e.out
+3.查看所有进程 ps aux | grep python | grep -v grep
+4.保留文件但是清空内容（.out文件） > nohup.out
+5.单机多卡启动 nohup torchrun --nproc_per_node=2 MoreTrainacccan.py >xunlian20e.out &
+6.一次性杀死所有进程 pkill -f MoreTrainacccan.py
+		pkill -f MyTrain10e.py
+7.查询pid是哪一个文件夹产生的 pwdx 715
+
+ 
+
+
+
+
+
+
+

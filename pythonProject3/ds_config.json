@@ -1,0 +1,25 @@
+{
+  "train_batch_size": 16,
+  "gradient_accumulation_steps": 1,
+  "fp16": {
+    "enabled": flase
+  },
+  "zero_optimization": {
+    "stage": 1,
+    "model_persistence_threshold": 1
+  },
+  "optimizer": {
+    "type": "Adam",
+    "params": {
+      "lr": 0.001
+    }
+  },
+  "scheduler": {
+    "type": "WarmupLR",
+    "params": {
+      "warmup_min_lr": 0,
+      "warmup_max_lr": 0.001,
+      "warmup_num_steps": 100
+    }
+  }
+}
