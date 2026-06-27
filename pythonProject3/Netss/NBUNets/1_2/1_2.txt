@@ -1,0 +1,213 @@
+Namespace(device='cuda:4', batch_size=32, lr=0.002, n_steps=30, n_epochs=70, gamma=0.1, trainset_dir='/project/pythonProject3/Data/Sci_PVBLiF_NBU_9_9_32_32_patch/')
+[1, 2]
+Test Epoch----    1, loss---0.725374, Time---221.067808 s lr---0.002000 s
+val SRCC :----    0.596327
+val LOSS :----    0.564722
+Test Epoch----    2, loss---0.520590, Time---220.467159 s lr---0.002000 s
+val SRCC :----    0.762827
+val LOSS :----    0.606156
+Test Epoch----    3, loss---0.461881, Time---220.933984 s lr---0.002000 s
+val SRCC :----    0.840512
+val LOSS :----    0.475430
+Test Epoch----    4, loss---0.425622, Time---220.382855 s lr---0.002000 s
+val SRCC :----    0.832276
+val LOSS :----    0.432635
+Test Epoch----    5, loss---0.404828, Time---220.768039 s lr---0.002000 s
+val SRCC :----    0.856094
+val LOSS :----    0.544676
+Test Epoch----    6, loss---0.382310, Time---220.676672 s lr---0.002000 s
+val SRCC :----    0.913523
+val LOSS :----    0.514020
+Test Epoch----    7, loss---0.371110, Time---220.067232 s lr---0.002000 s
+val SRCC :----    0.900612
+val LOSS :----    0.340996
+Test Epoch----    8, loss---0.336939, Time---220.193475 s lr---0.002000 s
+val SRCC :----    0.920423
+val LOSS :----    0.458036
+Test Epoch----    9, loss---0.325997, Time---220.398844 s lr---0.002000 s
+val SRCC :----    0.897051
+val LOSS :----    0.344875
+Test Epoch----   10, loss---0.308493, Time---220.595848 s lr---0.002000 s
+val SRCC :----    0.937563
+val LOSS :----    0.359123
+Test Epoch----   11, loss---0.292538, Time---220.423353 s lr---0.002000 s
+val SRCC :----    0.889483
+val LOSS :----    0.709456
+Test Epoch----   12, loss---0.279066, Time---220.323549 s lr---0.002000 s
+val SRCC :----    0.925320
+val LOSS :----    0.490332
+Test Epoch----   13, loss---0.276086, Time---220.387948 s lr---0.002000 s
+val SRCC :----    0.910629
+val LOSS :----    0.282740
+Test Epoch----   14, loss---0.261882, Time---220.947112 s lr---0.002000 s
+val SRCC :----    0.903506
+val LOSS :----    0.369873
+Test Epoch----   15, loss---0.248309, Time---220.763620 s lr---0.002000 s
+val SRCC :----    0.893712
+val LOSS :----    0.232584
+Test Epoch----   16, loss---0.242582, Time---220.736272 s lr---0.002000 s
+val SRCC :----    0.928214
+val LOSS :----    0.220424
+Test Epoch----   17, loss---0.235307, Time---220.486736 s lr---0.002000 s
+val SRCC :----    0.936672
+val LOSS :----    0.255039
+Test Epoch----   18, loss---0.227708, Time---220.514708 s lr---0.002000 s
+val SRCC :----    0.927101
+val LOSS :----    0.299014
+Test Epoch----   19, loss---0.220240, Time---221.476161 s lr---0.002000 s
+val SRCC :----    0.926878
+val LOSS :----    0.370441
+Test Epoch----   20, loss---0.203635, Time---220.966097 s lr---0.002000 s
+val SRCC :----    0.938898
+val LOSS :----    0.200458
+Test Epoch----   21, loss---0.196472, Time---220.774242 s lr---0.002000 s
+val SRCC :----    0.929772
+val LOSS :----    0.221107
+Test Epoch----   22, loss---0.188418, Time---221.095708 s lr---0.002000 s
+val SRCC :----    0.900612
+val LOSS :----    0.257687
+Test Epoch----   23, loss---0.182804, Time---220.839697 s lr---0.002000 s
+val SRCC :----    0.933556
+val LOSS :----    0.286986
+Test Epoch----   24, loss---0.168802, Time---221.908243 s lr---0.002000 s
+val SRCC :----    0.930885
+val LOSS :----    0.234427
+Test Epoch----   25, loss---0.165859, Time---221.108309 s lr---0.002000 s
+val SRCC :----    0.919088
+val LOSS :----    0.213988
+Test Epoch----   26, loss---0.159528, Time---221.698935 s lr---0.002000 s
+val SRCC :----    0.929549
+val LOSS :----    0.260263
+Test Epoch----   27, loss---0.146788, Time---220.751599 s lr---0.002000 s
+val SRCC :----    0.941124
+val LOSS :----    0.288029
+Test Epoch----   28, loss---0.140591, Time---220.839752 s lr---0.002000 s
+val SRCC :----    0.918865
+val LOSS :----    0.284763
+Test Epoch----   29, loss---0.139006, Time---221.851618 s lr---0.002000 s
+val SRCC :----    0.918642
+val LOSS :----    0.263574
+Test Epoch----   30, loss---0.153908, Time---221.867281 s lr---0.002000 s
+val SRCC :----    0.949360
+val LOSS :----    0.183394
+Test Epoch----   31, loss---0.099597, Time---221.644556 s lr---0.000020 s
+val SRCC :----    0.933556
+val LOSS :----    0.225675
+Test Epoch----   32, loss---0.089979, Time---221.088194 s lr---0.000200 s
+val SRCC :----    0.934224
+val LOSS :----    0.236330
+Test Epoch----   33, loss---0.086628, Time---222.249023 s lr---0.000200 s
+val SRCC :----    0.935337
+val LOSS :----    0.221502
+Test Epoch----   34, loss---0.083413, Time---221.870484 s lr---0.000200 s
+val SRCC :----    0.936005
+val LOSS :----    0.221348
+Test Epoch----   35, loss---0.081201, Time---222.136580 s lr---0.000200 s
+val SRCC :----    0.937785
+val LOSS :----    0.223959
+Test Epoch----   36, loss---0.080254, Time---221.761531 s lr---0.000200 s
+val SRCC :----    0.925988
+val LOSS :----    0.235805
+Test Epoch----   37, loss---0.078975, Time---222.408343 s lr---0.000200 s
+val SRCC :----    0.939343
+val LOSS :----    0.223208
+Test Epoch----   38, loss---0.076332, Time---222.710298 s lr---0.000200 s
+val SRCC :----    0.938231
+val LOSS :----    0.227439
+Test Epoch----   39, loss---0.074910, Time---222.219658 s lr---0.000200 s
+val SRCC :----    0.934446
+val LOSS :----    0.223083
+Test Epoch----   40, loss---0.073221, Time---222.231838 s lr---0.000200 s
+val SRCC :----    0.928214
+val LOSS :----    0.239205
+Test Epoch----   41, loss---0.073221, Time---222.291666 s lr---0.000200 s
+val SRCC :----    0.927991
+val LOSS :----    0.212764
+Test Epoch----   42, loss---0.071288, Time---222.632477 s lr---0.000200 s
+val SRCC :----    0.927323
+val LOSS :----    0.271300
+Test Epoch----   43, loss---0.072255, Time---222.549257 s lr---0.000200 s
+val SRCC :----    0.933556
+val LOSS :----    0.217060
+Test Epoch----   44, loss---0.069606, Time---222.931591 s lr---0.000200 s
+val SRCC :----    0.934669
+val LOSS :----    0.211838
+Test Epoch----   45, loss---0.067944, Time---222.701521 s lr---0.000200 s
+val SRCC :----    0.935114
+val LOSS :----    0.216291
+Test Epoch----   46, loss---0.067576, Time---222.843641 s lr---0.000200 s
+val SRCC :----    0.933556
+val LOSS :----    0.223988
+Test Epoch----   47, loss---0.066825, Time---222.753066 s lr---0.000200 s
+val SRCC :----    0.935559
+val LOSS :----    0.216685
+Test Epoch----   48, loss---0.065744, Time---222.637699 s lr---0.000200 s
+val SRCC :----    0.931553
+val LOSS :----    0.228040
+Test Epoch----   49, loss---0.065221, Time---222.923667 s lr---0.000200 s
+val SRCC :----    0.934446
+val LOSS :----    0.212954
+Test Epoch----   50, loss---0.064172, Time---223.186886 s lr---0.000200 s
+val SRCC :----    0.940456
+val LOSS :----    0.208918
+Test Epoch----   51, loss---0.062343, Time---222.354797 s lr---0.000200 s
+val SRCC :----    0.935337
+val LOSS :----    0.207560
+Test Epoch----   52, loss---0.062474, Time---222.449882 s lr---0.000200 s
+val SRCC :----    0.934669
+val LOSS :----    0.215521
+Test Epoch----   53, loss---0.061685, Time---222.689019 s lr---0.000200 s
+val SRCC :----    0.919755
+val LOSS :----    0.221799
+Test Epoch----   54, loss---0.060508, Time---222.833000 s lr---0.000200 s
+val SRCC :----    0.928659
+val LOSS :----    0.237933
+Test Epoch----   55, loss---0.060096, Time---222.699579 s lr---0.000200 s
+val SRCC :----    0.937340
+val LOSS :----    0.210536
+Test Epoch----   56, loss---0.058858, Time---222.530096 s lr---0.000200 s
+val SRCC :----    0.928436
+val LOSS :----    0.229059
+Test Epoch----   57, loss---0.058503, Time---222.618185 s lr---0.000200 s
+val SRCC :----    0.926656
+val LOSS :----    0.230531
+Test Epoch----   58, loss---0.057039, Time---222.581216 s lr---0.000200 s
+val SRCC :----    0.939343
+val LOSS :----    0.206071
+Test Epoch----   59, loss---0.056609, Time---222.353066 s lr---0.000200 s
+val SRCC :----    0.936672
+val LOSS :----    0.221812
+Test Epoch----   60, loss---0.055701, Time---222.532406 s lr---0.000200 s
+val SRCC :----    0.937563
+val LOSS :----    0.227561
+Test Epoch----   61, loss---0.052715, Time---222.695661 s lr---0.000002 s
+val SRCC :----    0.934446
+val LOSS :----    0.224231
+Test Epoch----   62, loss---0.052709, Time---222.343954 s lr---0.000020 s
+val SRCC :----    0.935337
+val LOSS :----    0.216696
+Test Epoch----   63, loss---0.051991, Time---222.141551 s lr---0.000020 s
+val SRCC :----    0.937118
+val LOSS :----    0.219197
+Test Epoch----   64, loss---0.051898, Time---222.170509 s lr---0.000020 s
+val SRCC :----    0.939789
+val LOSS :----    0.217830
+Test Epoch----   65, loss---0.051300, Time---222.507798 s lr---0.000020 s
+val SRCC :----    0.937118
+val LOSS :----    0.221217
+Test Epoch----   66, loss---0.051380, Time---222.398620 s lr---0.000020 s
+val SRCC :----    0.929104
+val LOSS :----    0.217486
+Test Epoch----   67, loss---0.050823, Time---221.534467 s lr---0.000020 s
+val SRCC :----    0.939789
+val LOSS :----    0.217291
+Test Epoch----   68, loss---0.051425, Time---221.538426 s lr---0.000020 s
+val SRCC :----    0.937118
+val LOSS :----    0.216952
+Test Epoch----   69, loss---0.050247, Time---221.448473 s lr---0.000020 s
+val SRCC :----    0.937118
+val LOSS :----    0.217697
+Test Epoch----   70, loss---0.051146, Time---221.577034 s lr---0.000020 s
+val SRCC :----    0.936672
+val LOSS :----    0.223836
+['I01R0', 'I02R0', 'I03R0', 'I04R0', 'I05R0', 'I06R0', 'I07R0', 'I08R0', 'I09R0', 'I10R0', 'I11R0', 'I12R0', 'I13R0', 'I14R0']
